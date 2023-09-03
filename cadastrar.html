@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDC HOST</title>
+    <!--Estilos-->
+    <link rel="stylesheet" href="./css/style_contato.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar-container">
+        <!--Navegação do site-->
+        <nav>
+            <a href="#">
+                <img src="img/hdchostlogo.png" alt="hdc host" class="logo"/>
+            </a>
+            <ul class="navbar-items">
+                <li>
+                    <a href="./index.html">home</a>
+                </li>
+                <li>
+                    <a href="./cadastrar.html" class="default-btn">Cadastrar</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        <section class="formulario">
+            <div class="form-container">
+                <div class="form-header">
+                    <p>Cadastro</p>
+                </div>
+                <div class="form-body">
+                    <form>
+                        <div class="box-input">
+                            <label for="name">Nome Completo <span class="required">*</span></label>
+                            <input type="text" name="name" id="name" class="block" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" name="email" id="email" class="block" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="idade">Sua idade <span class="required">*</span></label>
+                            <input type="number" name="idade" id="idade" class="block" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="nasc">Data de nascimento<span class="required">*</span></label>
+                            <input type="date" name="nasc" id="nasc" class="block" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="cid">Cidade <span class="required">*</span></label>
+                            <input type="text" name="cid" id="cid" class="block" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="estado">Estado <span class="required">*</span></label>
+                            <select name="estado" id="estado" class="block">
+                                <option value="MG">MG</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                            </select>
+                        </div>
+                            <input type="submit" class="bnt-submit" value="Cadastrar">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Kerlleyp @ 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
