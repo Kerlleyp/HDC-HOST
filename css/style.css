@@ -392,6 +392,9 @@ footer {
         width: 100%;
         margin: 10px 0;
     }
+    .info {
+       margin: 0 auto;
+    }
     .informations {
         flex-direction: column;
         width: 90%;
