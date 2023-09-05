@@ -133,6 +133,23 @@ nav {
     color: #fff;
 }
 
+@media screen and (max-width: 900px) {
+    .main-baner p {
+        padding: 0 6rem;
+    }
+    .formulario {
+        padding: 2rem;
+}
+}
+@media  screen and (max-width: 576px) {
+    .formulario {
+        font-size: 28px;
+    }
+    .formulario input[type="text"] {
+        width: 100%;
+    }
+}
+
 /*footer*/
 footer {
     text-align: center;
